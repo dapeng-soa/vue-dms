@@ -1,10 +1,6 @@
 <template>
   <div class="dashboard-container">
-    <div class="dashboard-text">Dapeng Mock Server 欢迎你:</div>
-    <div class="dapeng-log">
-      <img src="../../assets/dapeng/dapeng-logo-02.png"/>
-    </div>
-
+    <div class="dashboard-text">Dapeng Mock Server 欢迎你</div>
   </div>
 </template>
 

@@ -67,6 +67,8 @@
       :visible.sync="createDialogVisible"
       width="40%"
       :before-close="beforeClose"
+      :close-on-click-modal="false"
+      :close-on-press-escape="false"
       custom-class="method-dialog">
       <el-form :inline="true" class="demo-form-inline" label-width="90px" label-position="right"
                :rules="rules" ref="methodForm" :model="methodForm">

@@ -97,6 +97,7 @@
     <!--弹出框-->
     <!--:title和 title 的区别-->
     <el-dialog :title="serviceForm.title" :visible.sync="dialogVisible" class="s-dialog" width="40%"
+    :close-on-click-modal="false" :close-on-press-escape="false"
                custom-class="s-dialog">
       <!--:rules="rules"-->
       <el-form ref="serviceForm" :model="serviceForm" class="s-dialog" :inline="true"

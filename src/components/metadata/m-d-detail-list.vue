@@ -128,6 +128,8 @@
       title="查看详情"
       :visible.sync="dialogVisible"
       width="40%"
+      :close-on-click-modal="false"
+      :close-on-press-escape="false"
       custom-class="method-dialog">
       <el-form :inline="true" class="demo-form-inline" label-width="80px" label-position="right" :rules="rules"
                ref="methodForm" :model="methodForm">

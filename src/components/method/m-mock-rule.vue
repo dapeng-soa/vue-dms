@@ -66,6 +66,8 @@
       :title="mockType === 'view' ? '查看': '编辑'"
       :visible.sync="MockDialogVisible"
       width="80%"
+      :close-on-click-modal="false"
+      :close-on-press-escape="false"
       custom-class="mock-dialog">
       <el-form :inline="true" class="demo-form-inline" label-width="120px" label-position="top" :rules="rules"
                ref="editMockForm" :model="editMockForm">
