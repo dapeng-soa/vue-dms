@@ -9,7 +9,7 @@ export default new Router({
     {
       path: '/',
       component: App,
-      redirect: '/about',
+      redirect: '/s-list',
       name: 'Dapeng Mock Server',
       meta: { title: '首页' },
       // rewriteUrl: '/about',
@@ -47,6 +47,25 @@ export default new Router({
       meta: {
         keepAlive: true,
         pageName: '服务管理'
+      }
+    },
+    {
+      path: '/s-video-show',
+      name: 's-video-show',
+      component: () => import('@/components/service/s-video-show'),
+      meta: {
+        keepAlive: true,
+        pageName: '视频展示'
+      }
+    },
+
+    {
+      path: '/s-video-demo',
+      name: 's-video-demo',
+      component: () => import('@/components/service/s-video-demo'),
+      meta: {
+        keepAlive: true,
+        pageName: '视频展示2'
       }
     },
     {

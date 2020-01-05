@@ -1,6 +1,6 @@
 <template>
   <div class="dashboard-container">
-    <div class="dashboard-text">Dapeng Mock Server 欢迎你</div>
+    <div class="dashboard-text">Welcome !!!</div>
   </div>
 </template>
 
